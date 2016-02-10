@@ -5,6 +5,7 @@ class College : NSObject
     var numberOfStudents : Int!
     var location : String!
     var image : UIImage!
+    var collegeURL : String = ""
     
     init(n : String, nos : Int, l : String) {
         name = n
@@ -18,4 +19,5 @@ class College : NSObject
         numberOfStudents = 0
         location = ""
     }
+    
 }

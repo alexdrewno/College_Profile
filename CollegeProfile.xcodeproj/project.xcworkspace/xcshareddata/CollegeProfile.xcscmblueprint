@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FD0DF2E5F40607014101A384440D53D7F9686AE0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2DCEB6FA3DC10468966F31153A936299FCC2BB05" : 0,
+    "FD0DF2E5F40607014101A384440D53D7F9686AE0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DA7D71A9-6A14-47FC-8D8E-68D4F3369844",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2DCEB6FA3DC10468966F31153A936299FCC2BB05" : "..",
+    "FD0DF2E5F40607014101A384440D53D7F9686AE0" : "CollegeProfile\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CollegeProfile",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CollegeProfile.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kirbec\/College_Profile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2DCEB6FA3DC10468966F31153A936299FCC2BB05"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kirbec\/College_Profile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD0DF2E5F40607014101A384440D53D7F9686AE0"
+    }
+  ]
+}

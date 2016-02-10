@@ -14,6 +14,7 @@
 		3F0891901C56955C005A6FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F08918E1C56955C005A6FB9 /* LaunchScreen.storyboard */; };
 		3F08919B1C56955C005A6FB9 /* CollegeProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08919A1C56955C005A6FB9 /* CollegeProfileTests.swift */; };
 		3F0891A61C56955C005A6FB9 /* CollegeProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0891A51C56955C005A6FB9 /* CollegeProfileUITests.swift */; };
+		3F46E4F31C6A590800EA42F8 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46E4F21C6A590800EA42F8 /* WebView.swift */; };
 		3F49E8511C592CFD00CD8D03 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49E8501C592CFD00CD8D03 /* TableView.swift */; };
 		3F49E8531C592DA300CD8D03 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49E8521C592DA300CD8D03 /* TableCell.swift */; };
 		3F49E8551C5933A000CD8D03 /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49E8541C5933A000CD8D03 /* College.swift */; };
@@ -51,6 +52,7 @@
 		3F0891A11C56955C005A6FB9 /* CollegeProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0891A51C56955C005A6FB9 /* CollegeProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeProfileUITests.swift; sourceTree = "<group>"; };
 		3F0891A71C56955C005A6FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F46E4F21C6A590800EA42F8 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		3F49E8501C592CFD00CD8D03 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		3F49E8521C592DA300CD8D03 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		3F49E8541C5933A000CD8D03 /* College.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				3F0891851C56955B005A6FB9 /* AppDelegate.swift */,
 				3F0891871C56955B005A6FB9 /* ViewController.swift */,
 				3F0891891C56955C005A6FB9 /* Main.storyboard */,
+				3F46E4F21C6A590800EA42F8 /* WebView.swift */,
 				3F90D4FA1C5A868100B22DA1 /* Description.swift */,
 				3F49E8541C5933A000CD8D03 /* College.swift */,
 				3F49E8501C592CFD00CD8D03 /* TableView.swift */,
@@ -277,6 +280,7 @@
 				3F49E8531C592DA300CD8D03 /* TableCell.swift in Sources */,
 				3F0891861C56955B005A6FB9 /* AppDelegate.swift in Sources */,
 				3F49E8551C5933A000CD8D03 /* College.swift in Sources */,
+				3F46E4F31C6A590800EA42F8 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

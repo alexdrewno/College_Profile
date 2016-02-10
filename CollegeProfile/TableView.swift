@@ -8,8 +8,9 @@ class TableView : UITableViewController
     var tableCell : TableCell!
     override func viewDidLoad()
     {
-        let college1 = College(n: "college1", nos: 20, l: "location")
-        colleges.append(college1)
+        colleges.append(College(n: "University of Illinois", nos: 44087, l: "Champaign, IL"))
+        colleges[0].image = UIImage(contentsOfFile: "/Users/student/Desktop/Mobile Apps/apps/CollegeProfile/CollegeProfile/Assets.xcassets/illinoisImage.imageset/Image.png")
+        
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
@@ -96,6 +97,10 @@ class TableView : UITableViewController
                         destinationVC.n = colleges[i].name
                         destinationVC.l = colleges[i].location
                         destinationVC.e = colleges[i].numberOfStudents
+                        destinationVC.url = colleges[i].collegeURL
+                       
+                            destinationVC.i = colleges[i].image
+                        
                     }
                 }
                 destinationVC.colleges = self.colleges
@@ -104,5 +109,6 @@ class TableView : UITableViewController
             
         }
     }
+    
     
 }
