@@ -74,6 +74,15 @@ class TableView : UITableViewController
         
     }
     
+    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath)
+    {
+        if(editingStyle == UITableViewCellEditingStyle.Delete)
+        {
+            colleges.removeAtIndex(indexPath.row)
+            tableView.reloadData()
+        }
+    }
+    
     @IBAction func editing(sender: AnyObject)
     {
         self.editing = !self.editing
